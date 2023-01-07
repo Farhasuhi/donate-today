@@ -1,39 +1,101 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.header{
-    background-image: url("../images/donation2.jpg");
+.btn-primary {
+    border: none;
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    padding: 20px 25px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+/* header styles */
+.header {
+    /* background-blend-mode: darken; */
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.5)), url("../images/donation4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-color: darkslategray;
-    
 }
-.header-banner{
+
+.header-banner {
     /* position: relative;
     left: 30%;
     top: 40%; */
     text-align: center;
     padding: 350px 0;
 }
-.header-titles{
+
+.header-titles {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 30px;
 }
-.header-description{
+
+.header-description {
     font-size: 18px;
     margin-bottom: 30px;
     color: darkgray;
 }
-.btn-primary{
-    border: none;
-    color: white;
-    font-size: 18px;
-    background-color: red;
-    padding: 15px 20px;
-    font-weight: 500;
-    border-radius: 5px;
+/* section donate now style */
+.donate-pays{
+    margin-top: 130px;
+    text-align: center;
 }
+.donate-title{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.donate-description{
+    color: darkgray;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.tk-select ul{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.tk-select li{
+    list-style: none;
+    padding: 40px 20px;
+    background-color: #bbbfc3;
+    border-radius: 10px;
+}
+.tk-select a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.tk-select{
+    margin-bottom: 80px
+}
+.other{
+    text-align: center;
+    font-size: 25px;
+    color:grey;
+    margin-bottom: 15px;
+}
+.button{
+    margin-top: 30px;
+}
+hr{
+    width: 50%; 
+    margin: 0 25% 0 25%;
+    color: grey;
+}
+
+
+
+
